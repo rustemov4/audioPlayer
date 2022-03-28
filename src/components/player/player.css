@@ -1,0 +1,32 @@
+.player{
+    width: 100%;
+    background-color: #293136;
+    height: 75px;
+    position: fixed;
+    bottom: 0;
+}
+.slider{
+    position: absolute;
+    top: -15%;
+}
+.player_inner{
+    padding: 10px;
+}
+.timer{
+    color: aliceblue;
+}
+
+.logo{
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+}
+.button{
+    color: aliceblue;
+}
+@media only screen and (max-width: 600px) {
+    .logo{
+      width: 45px;
+      height: 45px;
+    }
+  }

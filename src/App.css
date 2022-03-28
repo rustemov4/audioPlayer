@@ -1,0 +1,10 @@
+.app{
+  background-color: #000000;
+  background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
+  height: 150vh;
+}
+@media only screen and (max-width: 600px) {
+  .app{
+    height: 300vh;
+  }
+}
